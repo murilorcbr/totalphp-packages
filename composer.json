@@ -1,0 +1,31 @@
+{
+    "name": "total-php/meet-up",
+    "version": "1.0.0",
+    "description": "Pacote de demonstração de construção de um pacote Laravel",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Murilo Santos",
+            "email": "murilorcbr@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "TotalPHP\\MeetUp\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~5|~6",
+        "illuminate/database": "~5|~6",
+        "illuminate/console": "~5|~6"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TotalPHP\\MeetUp\\MeetUpServiceProvider"
+            ]
+        }
+    }
+}
